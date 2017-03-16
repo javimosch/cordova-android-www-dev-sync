@@ -1,0 +1,22 @@
+{
+  "name": "android-www-inyector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "nodemon client.js --watch client.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "fs-watcher": "^0.2.1",
+    "promise": "^7.1.1",
+    "sander": "^0.6.0",
+    "shortid": "^2.2.8",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  }
+}
